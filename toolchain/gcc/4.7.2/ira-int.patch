@@ -1,5 +1,5 @@
---- branches/gcc-4_7-branch/gcc/ira-int.h	2012/09/21 09:19:39	191604
-+++ branches/gcc-4_7-branch/gcc/ira-int.h	2012/09/21 10:08:35	191605
+--- gcc-4.7.2/gcc/ira-int.h	2012/09/21 09:19:39	191604
++++ gcc-4.7.2/gcc/ira-int.h	2012/09/21 10:08:35	191605
 @@ -1138,8 +1138,13 @@
  ira_allocno_object_iter_cond (ira_allocno_object_iterator *i, ira_allocno_t a,
  			      ira_object_t *o)
